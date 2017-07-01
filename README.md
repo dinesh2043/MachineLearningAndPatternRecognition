@@ -3,7 +3,7 @@
 ### 1.1	Introduction
 This exercise was done using MNIST handwritten digits dataset available on web, which consists 60,000 training set and 10,000 test set. This dataset is available as a compressed files of training set, test set and appropriate labels files. These datasets are normalized 28x28 images collected from 500 different writers which have been distributed into equal proportion of training set and test set. Due to these properties this database has been used in large varieties of machine learning application research. [1]
 The available dataset are included into four different compressed files as training set, test set, training set label and test set label. Python gzip and struct library are used to extract data available in magic format and then it is converted to numerical format. Data obtained after this procedures are stored in four different variables called train_lbl, train_img, test_lbl and test image. In the following code snipped we can see the implementation of this section; [2]
- 
+![img](https://github.com/dinesh2043/MachineLearningAndPatternRecognition/blob/master/figure/fig1.JPG) 
 #### Figure 1: Implementation to read the data from the compressed file
 Particular image data consists a 28x28 matrix with values ranges from 0 to 255, where 0 is a black pixel and 255 is a white pixel. These available dataset has been plotted as training image and testing image to understand the visual representation of the values of this pixel in an image. We can apply the following implementation to 20 different training and testing images along with their label; <br />
 
