@@ -132,7 +132,7 @@ Similarly using the following code we can also plot the model loss; <br />
 Final step of this exercise is to evaluate the model performance using the test dataset, where mean absolute error value was 0.03455 and following code was used; <br />
  
 #### Figure 36: Model evaluation.
- <br />
+
 ### 3	References
 [1] THE MNIST DATABASE. (n.d.). Retrieved June 09, 2017, from http://yann.lecun.com/exdb/mnist/ <br />
 [2] Pythonorg. (2017). Pythonorg. Retrieved 9 June, 2017, from https://docs.python.org/3/library/gzip.html <br />
